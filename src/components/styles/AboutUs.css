@@ -1,0 +1,149 @@
+/* AboutUs.css */
+.about-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+
+.about-header {
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.header-content {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for text visibility */
+  padding: 20px;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+}
+
+.timeline-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.timeline-item {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 200px;
+}
+
+.mission-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mission-item {
+  width: 200px;
+  text-align: left;
+}
+
+.team-section {
+  padding: 40px 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  text-align: center;
+  width: 150px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonials-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.testimonial {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}

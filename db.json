@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "f977",
+      "email": "727723eucs075@skcet.ac.in",
+      "password": "123"
+    },
+    {
+      "id": "462e",
+      "email": "727723eucs05@skcet.ac.in",
+      "password": "123654"
+    },
+    {
+      "id": "615e",
+      "email": "727723eucs07@skcet.ac.in",
+      "password": "123456"
+    },
+    {
+      "id": "7967",
+      "email": "727723eucs0@skcet.ac.in",
+      "password": "123"
+    }
+  ],
+  "cart": []
+}

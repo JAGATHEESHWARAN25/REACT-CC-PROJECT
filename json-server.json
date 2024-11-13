@@ -1,0 +1,63 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "Book Title 1",
+        "author": "Author Name 1",
+        "price": 15.99,
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcO26kdi60I4raBpJSMFyJMX2AzPfb2D9Aw&s"
+      },
+      {
+        "id": 2,
+        "title": "Book Title 2",
+        "author": "Author Name 2",
+        "price": 9.99,
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjpNktAuQGDsFq-3yIHfyLE5zm7HQ-tZ9Ubg&s"
+      },
+      {
+        "id": 3,
+        "title": "Book Title 3",
+        "author": "Author Name 3",
+        "price": 12.99,
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlwkl2cfIG_d2wRZ3ToFLGHgqg8eFfdMBeYA&s"
+      }
+    ],
+    "cartItems": [
+      {
+        "id": 1,
+        "title": "Book Title 1",
+        "price": 15.99,
+        "quantity": 2,
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcO26kdi60I4raBpJSMFyJMX2AzPfb2D9Aw&s"
+      }
+    ],
+    "orders": [
+      {
+        "orderId": 1,
+        "cartItems": [
+          {
+            "id": 1,
+            "title": "Book Title 1",
+            "price": 15.99,
+            "quantity": 1,
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcO26kdi60I4raBpJSMFyJMX2AzPfb2D9Aw&s"
+          }
+        ],
+        "shippingInfo": {
+          "name": "John Doe",
+          "address": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "phone": "555-555-5555"
+        },
+        "paymentInfo": {
+          "cardNumber": "4111111111111111",
+          "expiry": "12/24",
+          "cvv": "123"
+        },
+        "date": "2024-10-15T14:30:00.000Z"
+      }
+    ]
+  }
+  
